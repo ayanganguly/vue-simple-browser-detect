@@ -1,6 +1,6 @@
 {
   "name": "vue-simple-browser-detect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "It is a simple vue browser detect platform. ",
   "main": "src/index.js",
   "scripts": {
@@ -14,10 +14,12 @@
   "keywords": [
     "vue",
     "browser-detect",
-    "vue",
-    "simple",
+    "vue-simple-browser-detect",
+    "simple-browser-detect",
     "browser",
-    "detect"
+    "detect",
+    "vue2-simple-browser-detect",
+    "vue3-simple-browser-detect"
   ],
   "author": "Ayan Ganguly",
   "license": "MIT",
