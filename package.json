@@ -1,0 +1,28 @@
+{
+  "name": "vue-simple-browser-detect",
+  "version": "1.0.0",
+  "description": "It is a simple vue browser detect platform. ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayanganguly/vue-simple-browser-detect.git"
+  },
+  "keywords": [
+    "vue",
+    "browser-detect",
+    "vue",
+    "simple",
+    "browser",
+    "detect"
+  ],
+  "author": "Ayan Ganguly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayanganguly/vue-simple-browser-detect/issues"
+  },
+  "homepage": "https://github.com/ayanganguly/vue-simple-browser-detect#readme"
+}
