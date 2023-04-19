@@ -34,7 +34,7 @@ new Vue({
 
 <template>
   <div id="app">
-    Your browser is {{ $detectBrowser }}
+    Your browser is {{ $detectBrowser() }}
   </div>
 </template>
 
@@ -47,7 +47,7 @@ export default {
     }
   },
   mounted(){
-    console.log("Browser", this.$detectBrowser)
+    console.log("Browser", this.$detectBrowser())
   }
 }
 </script>
@@ -80,7 +80,7 @@ app.mount('#app');
 </template>
 
 <script>
-import { ref, getCurrentInstance  } from 'vue'
+import { getCurrentInstance } from 'vue'
 
 export default {
   setup() {
