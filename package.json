@@ -1,6 +1,6 @@
 {
   "name": "vue-simple-browser-detect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It is a simple vue browser detect platform. ",
   "main": "src/index.js",
   "scripts": {

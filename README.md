@@ -75,7 +75,7 @@ app.mount('#app');
 
 <template>
   <div>
-    Your browser is {{ detectBrowser }}
+    Your browser is {{ detectBrowser() }}
   </div>
 </template>
 
@@ -87,7 +87,7 @@ export default {
     const app = getCurrentInstance();
     const detectBrowser = app.appContext.config.globalProperties.$detectBrowser;
 
-    console.log("Browser", detectBrowser)
+    console.log("Browser", detectBrowser())
 
     return {
       detectBrowser
